@@ -13,6 +13,6 @@ unsigned  int  gcd(unsigned int a,unsigned  b){
 int main(){
     unsigned  int a,b;
     cin>>a>>b;
-    cout<<a*b/gcd(a,b);
+    cout<<a*b/gcd(a,b);//乘积除以最小公约数即为最小公倍数
     return  0;
 }

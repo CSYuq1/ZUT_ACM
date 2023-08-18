@@ -12,7 +12,7 @@ int main() {
         for (int i = 0; i <= 100 / big; i++)
             for (int j = 0; j <= (100 - big * i) / small; j++) {
                 unsigned int super_small =2*(100-big*i-small*j);
-                if (i + j + super_small == 100 ) counts++;
+                if (i + j + super_small == 100 ) counts++;//简单暴力枚举法，符合直接方案++
             }
         if (!counts)
             printf("no solution\n");

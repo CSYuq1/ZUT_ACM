@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/yanyu/CLionProjects/ZUT_ACM_ANSWER/cmake-build-debug",
-		"source" : "C:/Users/yanyu/CLionProjects/ZUT_ACM_ANSWER"
+		"build" : "C:/Users/yanyu/CLionProjects/ZUT_ACM/cmake-build-debug",
+		"source" : "C:/Users/yanyu/CLionProjects/ZUT_ACM"
 	},
 	"version" : 
 	{
