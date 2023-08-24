@@ -1,19 +1,17 @@
-//
-// Created by yanyu on 2023/8/21.
-//
-#include<iostream>
+#include <iostream>
 
 using namespace std;
-int main(){
-    int n;
-    scanf("%d",&n);
-    int a=1,b=1,c=1,i=3;
-    while(i<=n){
-        c=a+b;
-        a=b;
-        b=c;
+/*
+ * by yanyuqi
+ */
+int main() {
+    int i = 1;
+    int sum = 0;
+    while (i <= 50) {
+       sum=sum-1;//奇数项和偶数项一起算，两项合并，每次减一
         i++;
     }
-    printf("%d",c);
+    cout << sum << endl;
+   // printf("50");
     return 0;
-}
+} 
