@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\yanyu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\lenovo\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\yanyu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\lenovo\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\yanyu\CLionProjects\ZUT_ACM
+CMAKE_SOURCE_DIR = C:\Users\lenovo\CLionProjects\ZUT_ACM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/answer.dir/depend.make
@@ -69,32 +69,48 @@ include CMakeFiles/answer.dir/progress.make
 include CMakeFiles/answer.dir/flags.make
 
 CMakeFiles/answer.dir/main.cpp.obj: CMakeFiles/answer.dir/flags.make
-CMakeFiles/answer.dir/main.cpp.obj: C:/Users/yanyu/CLionProjects/ZUT_ACM/main.cpp
+CMakeFiles/answer.dir/main.cpp.obj: C:/Users/lenovo/CLionProjects/ZUT_ACM/main.cpp
 CMakeFiles/answer.dir/main.cpp.obj: CMakeFiles/answer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/answer.dir/main.cpp.obj"
-	C:\Users\yanyu\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/answer.dir/main.cpp.obj -MF CMakeFiles\answer.dir\main.cpp.obj.d -o CMakeFiles\answer.dir\main.cpp.obj -c C:\Users\yanyu\CLionProjects\ZUT_ACM\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/answer.dir/main.cpp.obj"
+	C:\Users\lenovo\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/answer.dir/main.cpp.obj -MF CMakeFiles\answer.dir\main.cpp.obj.d -o CMakeFiles\answer.dir\main.cpp.obj -c C:\Users\lenovo\CLionProjects\ZUT_ACM\main.cpp
 
 CMakeFiles/answer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/answer.dir/main.cpp.i"
-	C:\Users\yanyu\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yanyu\CLionProjects\ZUT_ACM\main.cpp > CMakeFiles\answer.dir\main.cpp.i
+	C:\Users\lenovo\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lenovo\CLionProjects\ZUT_ACM\main.cpp > CMakeFiles\answer.dir\main.cpp.i
 
 CMakeFiles/answer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/answer.dir/main.cpp.s"
-	C:\Users\yanyu\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yanyu\CLionProjects\ZUT_ACM\main.cpp -o CMakeFiles\answer.dir\main.cpp.s
+	C:\Users\lenovo\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo\CLionProjects\ZUT_ACM\main.cpp -o CMakeFiles\answer.dir\main.cpp.s
+
+CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj: CMakeFiles/answer.dir/flags.make
+CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj: C:/Users/lenovo/CLionProjects/ZUT_ACM/题目解答/1030猴子偷桃.cpp
+CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj: CMakeFiles/answer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj"
+	C:\Users\lenovo\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj -MF CMakeFiles\answer.dir\题目解答\1030猴子偷桃.cpp.obj.d -o CMakeFiles\answer.dir\题目解答\1030猴子偷桃.cpp.obj -c C:\Users\lenovo\CLionProjects\ZUT_ACM\题目解答\1030猴子偷桃.cpp
+
+CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.i"
+	C:\Users\lenovo\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lenovo\CLionProjects\ZUT_ACM\题目解答\1030猴子偷桃.cpp > CMakeFiles\answer.dir\题目解答\1030猴子偷桃.cpp.i
+
+CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.s"
+	C:\Users\lenovo\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo\CLionProjects\ZUT_ACM\题目解答\1030猴子偷桃.cpp -o CMakeFiles\answer.dir\题目解答\1030猴子偷桃.cpp.s
 
 # Object files for target answer
 answer_OBJECTS = \
-"CMakeFiles/answer.dir/main.cpp.obj"
+"CMakeFiles/answer.dir/main.cpp.obj" \
+"CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj"
 
 # External object files for target answer
 answer_EXTERNAL_OBJECTS =
 
 answer.exe: CMakeFiles/answer.dir/main.cpp.obj
+answer.exe: CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj
 answer.exe: CMakeFiles/answer.dir/build.make
 answer.exe: CMakeFiles/answer.dir/linkLibs.rsp
 answer.exe: CMakeFiles/answer.dir/objects1.rsp
 answer.exe: CMakeFiles/answer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable answer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable answer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\answer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +122,6 @@ CMakeFiles/answer.dir/clean:
 .PHONY : CMakeFiles/answer.dir/clean
 
 CMakeFiles/answer.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\yanyu\CLionProjects\ZUT_ACM C:\Users\yanyu\CLionProjects\ZUT_ACM C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles\answer.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\lenovo\CLionProjects\ZUT_ACM C:\Users\lenovo\CLionProjects\ZUT_ACM C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles\answer.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/answer.dir/depend
 

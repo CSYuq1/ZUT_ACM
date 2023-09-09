@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\yanyu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\lenovo\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\yanyu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\lenovo\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\yanyu\CLionProjects\ZUT_ACM
+CMAKE_SOURCE_DIR = C:\Users\lenovo\CLionProjects\ZUT_ACM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/answer.dir/clean
 CMakeFiles/answer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target answer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target answer"
 .PHONY : CMakeFiles/answer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/answer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/answer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\yanyu\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lenovo\CLionProjects\ZUT_ACM\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/answer.dir/rule
 
 # Convenience name for target.

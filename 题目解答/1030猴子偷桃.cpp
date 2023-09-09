@@ -1,3 +1,6 @@
+//
+// Created by lenovo on 2023/9/9.
+//
 #include <iostream>
 
 using namespace std;
@@ -14,4 +17,4 @@ int main() {
 
     cout << counts;
     return 0;
-} 
+}

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/yanyu/CLionProjects/ZUT_ACM
+# Install script for directory: C:/Users/lenovo/CLionProjects/ZUT_ACM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/yanyu/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/lenovo/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/yanyu/CLionProjects/ZUT_ACM/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/lenovo/CLionProjects/ZUT_ACM/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
