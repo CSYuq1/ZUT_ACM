@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-题目解答/1030猴子偷桃.obj: 题目解答/1030猴子偷桃.cpp.obj
-.PHONY : 题目解答/1030猴子偷桃.obj
-
-# target to build an object file
-题目解答/1030猴子偷桃.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.obj
-.PHONY : 题目解答/1030猴子偷桃.cpp.obj
-
-题目解答/1030猴子偷桃.i: 题目解答/1030猴子偷桃.cpp.i
-.PHONY : 题目解答/1030猴子偷桃.i
-
-# target to preprocess a source file
-题目解答/1030猴子偷桃.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.i
-.PHONY : 题目解答/1030猴子偷桃.cpp.i
-
-题目解答/1030猴子偷桃.s: 题目解答/1030猴子偷桃.cpp.s
-.PHONY : 题目解答/1030猴子偷桃.s
-
-# target to generate assembly for a file
-题目解答/1030猴子偷桃.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/题目解答/1030猴子偷桃.cpp.s
-.PHONY : 题目解答/1030猴子偷桃.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... 题目解答/1030猴子偷桃.obj
-	@echo ... 题目解答/1030猴子偷桃.i
-	@echo ... 题目解答/1030猴子偷桃.s
 .PHONY : help
 
 

@@ -85,9 +85,6 @@
 		<Unit filename="C:/Users/lenovo/CLionProjects/ZUT_ACM/main.cpp">
 			<Option target="answer"/>
 		</Unit>
-		<Unit filename="C:/Users/lenovo/CLionProjects/ZUT_ACM/题目解答/1030猴子偷桃.cpp">
-			<Option target="answer"/>
-		</Unit>
 		<Unit filename="C:/Users/lenovo/CLionProjects/ZUT_ACM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
