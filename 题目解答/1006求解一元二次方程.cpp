@@ -4,7 +4,6 @@
 #include <iostream>
 #include <iomanip>//小数格式化输出需要
 #include "cmath"
-
 using namespace std;
 
 int main() {
