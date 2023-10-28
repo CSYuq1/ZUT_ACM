@@ -1,9 +1,12 @@
+//
+// Created by lenovo on 2023/10/28.
+//
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    int prime[20000];
+    int prime[20000];//代表储存的素数，实际上没有这么多素数
     int c = 0;
     bool isVisit[100001];//每个变量代表这个数是不是素数  false->素数
     for (int i = 2; i <= 100000; ++i)//老规矩，遍历区间
@@ -30,12 +33,12 @@ int main() {
             start = i;
             break;
         }
+
     unsigned long long sum = 0;
     for (int j = start; j < 20000; j++)
-        if (prime[j] <= n) {
+        if (prime[j] <= n)
             sum += prime[j];
-            return 0;
-        }
+        else break;
     cout << sum;
     return 0;
 }

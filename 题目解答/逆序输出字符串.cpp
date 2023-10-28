@@ -12,6 +12,5 @@ int main() {
     for (unsigned int i = n; i > 0; i--) {
         cout << str[i - 1];
     }
-    ret//
-// Created by yanyu on 2023/10/1.
-//
+    return 0;
+}

@@ -12,6 +12,6 @@ int main() {
     float
             x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a),
             x2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
-    cout << fixed << setprecision(2) << x1 << " " << x2;
+    cout << fixed << setprecision(2) <<"x1="<< x1 << "\nx2=" << x2;
     return 0;
 }
