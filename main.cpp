@@ -1,35 +1,46 @@
 //
-// Created by lenovo on 2023/11/4.
-//n
+// Created by lenovo on 2023/10/28.
+//
 #include <iostream>
-#include <algorithm>
 
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false);
+    ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
-    int n, cut_size;
-    cin >> n >> cut_size;
-
-
-    int drop[n];//定义一个数组，计算各个元素之间的落差
-    drop[0]=0;
-
-
-    int start, last, now, drop_sum = 0;//循环输入使用
-    cin >> last;//先输入第一个元素，因为第一个元素和之前的元素没有落差
-    start = last;//第一个元素额外储存，最后计算总落差需要使用
-    for (int i = 1; i < n; i++) {
-        cin >> now;
-        drop[i] = now - last;//当前元素减去上个元素即为落差
-        last = now;
+    int prime[200000];//代表储存的素数，实际上没有这么多素数
+    int c = 0;
+    bool isVisit[1000001];//每个变量代表这个数是不是素数  false->素数
+    for (int i = 2; i <= 1000000; ++i)//老规矩，遍历区间
+    {
+        if (!isVisit[i]) { //如果这个数未被访问，则是素数
+            prime[++c] = i;//将素数保存在素数数组里面，计数+1
+            cout<<prime[c]<<endl;
+        }
+        //下面for循环及里面的语句才是这个算法的精髓
+        for (int j = 1; j <= c && i * prime[j] <= 1000001; ++j) {
+            isVisit[i * prime[j]] = true;//质数相乘所得到的数字都是奇数
+            if (i % prime[j] == 0)//这行看不懂，但是不敢删掉
+                break;
+        }
     }
 
+    /*
+     *上一段用来求素数，这一段用来得到M,N之间素数和
+     */
+    int m, n, start = 0;
+    cin >> m >> n;
+    for (int i = 1; i < 200000; i++)
+        if (prime[i] >= m) {
+            start = i;
+            break;
+        }
 
-    sort(drop, drop + n);//排序得到最大的几个落差
-    while (--cut_size && --n)
-        drop_sum += drop[n];//数组最后几个元素是最大的落差————把它们加到drop_sum
-    cout << last - start - drop_sum;//总落差减去 最大落差和
+    unsigned long long sum = 0;
+    for (int j = start; j < 200000; j++)
+        if (prime[j] <= n)
+            sum += prime[j];
+        else break;
+    cout << sum;
     return 0;
 }
