@@ -41,7 +41,7 @@ int foo(int m, int n) {
         m = n;
         n = exchange;
     }
-    if (m > 999989) {
+    if (m > 999983) {
         return 0;
     }
     for (; start <= 78498; ++start)//两个for循环还可以二分查找优化，先ac了再管
@@ -79,8 +79,8 @@ int main() {
      * 上面是求全部素数
      * 下面才是数据处理部分
      */
-    cout <<"primenum(m,n): "<<primenum(999984,999999)<<endl;
-    /*
+    //cout <<"primenum(m,n): "<<primenum(999907,999999)<<endl;
+
     for (int n = 1000000; n--;)
         for (int m = 1000000; m--;) {
             if (primenum(m, n) != foo(m, n)) {
@@ -90,7 +90,7 @@ int main() {
             }
 
         }
-*/
+
 //int test=foo(999901,999999);
     // cout<<primenum(999991,999999);
 

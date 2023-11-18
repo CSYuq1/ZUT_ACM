@@ -4,6 +4,28 @@ using namespace std;
 int prime[78500];
 bool isVisit[1000001];
 
+int foo(int m, int n) {
+    int start = 1;
+    if (m > n) {
+        int exchange;
+        exchange = m;
+        m = n;
+        n = exchange;
+    }
+    if (m > 999983) {
+        return 0;
+    }
+    for (; start <= 78498; ++start)//两个for循环还可以二分查找优化，先ac了再管
+        if (prime[start] >= m) {
+            break;
+        }
+    for (int j = start; j <= 78498; j++)
+        if (prime[j] > n)
+            return j - start;
+
+    return 78499 - start;
+}
+
 bool isPrime(int num) {
     if (num <= 1) {
         return false;
