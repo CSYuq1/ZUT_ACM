@@ -1,13 +1,38 @@
 #include <iostream>
 
 using namespace std;
+int prime[78500];
+bool isVisit[1000001];
+
+bool isPrime(int num) {
+    if (num <= 1) {
+        return false;
+    }
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+int primenum(int m, int n) {
+    int sum = 0;
+    sum = 0;
+    for (int i = m; i <= n; i++) {
+        if (isPrime(i)) {
+            sum = sum + 1;
+        }
+    }
+    return sum;
+}
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int prime[78500];
-    bool isVisit[1000001];
-    int c = 0, m, n, start = 0;
+
+    int c = 0, m, n, start = 1;
     //每个变量代表这个数是不是素数  false->素数
     for (int i = 2; i <= 1000000; ++i)//老规矩，遍历区间
     {
@@ -26,15 +51,15 @@ int main() {
      * 下面才是数据处理部分
      */
 
-     cin >> m >> n;
+    cin >> m >> n;
     if (m > n) {
         int exchange;
         exchange = m;
         m = n;
         n = exchange;
     }
-    if(m>999989){
-        cout<<0;
+    if (m > 999983) {
+        cout << 0;
         return 0;
     }
     for (; start <= 78498; start++)//两个for循环还可以二分查找优化，先ac了再管
@@ -43,7 +68,7 @@ int main() {
         }
     for (int j = start; j <= 78498; j++)
         if (prime[j] > n) {
-            cout << j - start ;
+            cout << j - start;
             return 0;
         }
     cout << 78499 - start;
