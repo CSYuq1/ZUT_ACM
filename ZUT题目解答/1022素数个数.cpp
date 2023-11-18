@@ -33,10 +33,12 @@ int main() {
         m = n;
         n = exchange;
     }
-
-    for (int i = 1; i <= 78498; i++)//两个for循环还可以二分查找优化，先ac了再管
-        if (prime[i] >= m) {
-            start = i;
+    if(m>999989){
+        cout<<0;
+        return 0;
+    }
+    for (; start <= 78498; start++)//两个for循环还可以二分查找优化，先ac了再管
+        if (prime[start] >= m) {
             break;
         }
     for (int j = start; j <= 78498; j++)
