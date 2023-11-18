@@ -1,7 +1,18 @@
 #include <iostream>
 
 using namespace std;
+bool isPrime(int num) {
+    if (num <= 1) {
+        return false;
+    }
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            return false;
+        }
+    }
 
+    return true;
+}
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -11,6 +22,8 @@ int main() {
     {
         if (!isVisit[i]) { //如果这个数未被访问，则是素数
             prime[++c] = i;//将素数保存在素数数组里面，计数+1
+            if(!isPrime(prime[c]))
+                cout<<"wrong";
         }
         for (int j = 1; j <= c && i * prime[j] <= 1000001; ++j) {
             isVisit[i * prime[j]] = true;//质数相乘所得到的数字都是奇数
