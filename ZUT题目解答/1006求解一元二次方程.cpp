@@ -8,7 +8,8 @@ using namespace std;
 
 int main() {
     float a, b, c;//对应三个参数
-    cin >> a >> b >> c;
+    char c1,c2;
+    cin >> a >>c1>> b >>c2>> c;
     float
             x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a),
             x2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
