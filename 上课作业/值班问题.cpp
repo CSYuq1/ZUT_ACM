@@ -8,9 +8,9 @@ int main() {
     using namespace std;
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int month[12]={31};
-    month[2]=28;
-    month[4]= month[6]= month[9]= month[11]=30;
+    int m[12]={31};
+    m[2]=28;
+    m[4]=m[6]=m[9]=m[11]=30;
     int n;
     cin >> n;
     while (n--) {
